@@ -8,7 +8,7 @@ import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
 import Testimonial from "./components/testimonial/Testimonial.js"; // Corrected path
-
+//##
 function App() {
   return (
     <div className="w-full h-auto bg-gray-800 text-lightText">
