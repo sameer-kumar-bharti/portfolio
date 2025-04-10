@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFacebookF, FaLinkedinIn, FaReact, FaNodeJs } from "react-icons/fa"; // Added FaReact
-import {  SiMongodb, SiExpress, SiHtml5, SiCss3, SiPostman,SiLaravel, SiPhp, SiJquery } from "react-icons/si"; // Kept all skills
+import {  SiMongodb, SiExpress, SiHtml5, SiCss3, SiPostman,SiLaravel, SiPhp,SiCodeigniter, SiJquery } from "react-icons/si"; // Kept all skills
 
 const Media = () => {
   return (
@@ -26,7 +26,7 @@ const Media = () => {
           Best Skills In
         </h2>
         <div className="flex gap-4 flex-wrap">
-          {[SiLaravel, SiPhp, SiJquery,FaReact, FaNodeJs, SiMongodb, SiExpress, SiHtml5, SiCss3, SiPostman].map((Icon, index) => (
+          {[SiLaravel, SiPhp, SiCodeigniter, SiJquery,FaReact, FaNodeJs, SiMongodb, SiExpress, SiHtml5, SiCss3, SiPostman].map((Icon, index) => (
             <span key={index} className="bannerIcon rounded-full p-3 bg-[#1e2024] shadow-md hover:scale-105 transition-transform">
               <Icon className="text-white" />
             </span>
