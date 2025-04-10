@@ -18,6 +18,7 @@ const skills = [
     items: [
       { skill: "Php", level: "Expert" },
       { skill: "Laravel", level: "Expert" },
+      { skill: "Codeigniter", level: "Expert" },
       { skill: "MySQL", level: "Expert" },
       { skill: "SQL", level: "Expert" },
       { skill: "Node.js", level: "Intermediate" },
