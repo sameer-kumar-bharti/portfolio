@@ -15,12 +15,7 @@ export const featuresData = [
     title: "Back-End Development",
     des: "Proficient in building scalable and efficient back-end applications using Php and Laravel to power robust web solutions.",
   },
-  // {
-  //   id: 3,
-  //   icon: <FaMobile />,
-  //   title: "Mobile App Development",
-  //   des: "Developed mobile applications with React Native, creating engaging, real-time experiences for iOS and Android users.",
-  // },
+  
   {
     id: 4,
     icon: <SiMysql />,
